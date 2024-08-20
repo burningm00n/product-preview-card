@@ -1,0 +1,21 @@
+/* mobiles, tablets */
+@media(max-width: 63.9375em) {
+    .grid {
+        gap: 1em;
+    }
+
+    .btn {
+        margin-block-end: 2em;
+    }
+}
+
+/* laptops */
+@media(min-width: 64em) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .content {
+        padding-block: 1em;
+    }
+}
